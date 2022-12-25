@@ -57,7 +57,6 @@ export default function Home() {
             <h3 className="text-xl my-5">"スノーボードをLifeStyleへ"</h3>
             <h2 className="text-4xl">3/8 - 3/9</h2>
             <h2 className="text-3xl my-5">パルコール嬬恋</h2>
-            <h2 className="text-3xl my-5">15,000JPY</h2>
           </div>
           <div className="m-20 xl:mx-10 xl:w-1/4 xl:flex xl:flex-col xl:flex-wrap xl:justify-center">
             <Image src="/logo02.png" width={500} height={500} alt="image03" />

@@ -27,7 +27,11 @@ const about = () => {
             </div>
             <div className="p-5 border-y border-gray-500 flex flex-row flex-wrap justify-self-start">
               <h1 className=" w-1/3">・料 金</h1>
-              <h1 className="">15,000円</h1>
+              <h1 className="">
+                15,000円
+                <br />
+                ホテル料金、リフト券、夕食、朝食、イベント参加券がセットになった料金です。
+              </h1>
             </div>
             <div className="p-5 border-y border-gray-500 flex flex-row flex-wrap justify-self-start">
               <h1 className=" w-1/3">・お問い合わせ</h1>
