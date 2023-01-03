@@ -119,24 +119,40 @@ export default function Home() {
             <h1 className="text-2xl ">協賛企業</h1>
             <div className="my-10 py-10 flex flex-row flex-wrap justify-center">
               <div className="m-10 border  border-gray-500">
-                <Image
-                  src="/yonex.png"
-                  width={200}
-                  height={200}
-                  alt="yonex logo"
-                />
-                <Link href="https://www.yonex.co.jp/snowboards/">YONEX</Link>
+                <Link href="https://www.yonex.co.jp/snowboards/">
+                  <Image
+                    src="/yonex.png"
+                    width={200}
+                    height={200}
+                    alt="yonex logo"
+                  />
+                  YONEX
+                </Link>
               </div>
-              <div className="m-10 border  border-gray-500">
-                <div className="p-5">
+              <div className="m-10 px-8 border  border-gray-500">
+                <div className="p-5"></div>
+                <Link href="https://www.yonex.co.jp/snowboards/">
                   <Image
                     src="/burton.png"
                     width={150}
                     height={150}
                     alt="burton logo"
                   />
-                </div>
-                <Link href="https://www.yonex.co.jp/snowboards/">BURTON</Link>
+                  BURTON
+                </Link>
+              </div>
+              <div className="m-10 border  border-gray-500">
+                <Link href="https://www.advance-j.com/snow/">
+                  <div className="p-5">
+                    <Image
+                      src="/advance.jpg"
+                      width={150}
+                      height={150}
+                      alt="burton logo"
+                    />
+                  </div>
+                  ADVANCE
+                </Link>
               </div>
             </div>
           </div>
