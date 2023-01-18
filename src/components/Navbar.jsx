@@ -42,7 +42,7 @@ const navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className=" " href="/reserve">
+                <Link className=" " href="/link">
                   予約ページ
                 </Link>
               </li>

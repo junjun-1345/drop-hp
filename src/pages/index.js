@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Map from "../components/map";
+import Map from "../components/Map";
 
 export default function Home() {
   return (
