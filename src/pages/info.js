@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 const info = () => {
   return (
     <div className="bg-black font-serif text-white md:pb-40 py-10 md:px-40 px-4 leading-loose">
