@@ -66,6 +66,9 @@ const navbar = () => {
           <Link className="mx-5 flex items-center" href="/guide">
             来場のご案内
           </Link>
+          <Link className="mx-5 flex items-center" href="/info">
+            特定商取引法
+          </Link>
           <Link
             className="p-1 border rounded text-white border-white "
             href="/reserve"
