@@ -42,6 +42,11 @@ const navbar = () => {
                 </Link>
               </li>
               <li>
+                <Link className="mx-5" href="/info">
+                  特定商取引法
+                </Link>
+              </li>
+              <li>
                 <Link className=" " href="/reserve">
                   予約ページ
                 </Link>
