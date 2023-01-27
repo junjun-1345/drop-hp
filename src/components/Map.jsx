@@ -12,7 +12,7 @@ const places = [
   { info: "info2", location: { lat: 44.048225, lng: 142.49701 } },
 ];
 
-const map = () => {
+const Map = () => {
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: process.env.NEXT_PUBLIC_googleMapsApiKey,
     // ここにAPIキーを入力します。今回は.envに保存しています。
@@ -64,4 +64,4 @@ const map = () => {
   );
 };
 
-export default map;
+export default Map;
