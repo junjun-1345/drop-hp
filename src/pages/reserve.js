@@ -9,7 +9,8 @@ const reserve = () => {
             プラン
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-            人数に合わせてプランを選択してください
+            部屋は2名でのご用意になります。 <br />
+            1名でのご利用はできません
           </p>
         </div>
         <div className="flex flex-wrap justify-center -m-4">
