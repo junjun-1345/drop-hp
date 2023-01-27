@@ -1,19 +1,22 @@
 import { useRouter } from "next/router";
+import { useCookies } from "react-cookie";
 import { FormProvider, useFormContext } from "react-hook-form";
 import CompanionForm from "./CompanionForm";
 import RepresentativeForm from "./RepresentativeForm";
 
 const Input = (props) => {
   const methods = useFormContext();
+  const { handleSubmit } = methods;
 
   const router = useRouter();
 
-  const { handleSubmit } = methods;
-
-  const onSubmit = async (data) => {
-    console.log(data);
+  const onSubmit = async () => {
     router.push(`/checkout/?confirm=1`);
   };
+
+  const [cookies, setCookie] = useCookies(["flag"]);
+
+  const flag = cookies.flag;
 
   return (
     <FormProvider {...methods}>
@@ -25,7 +28,7 @@ const Input = (props) => {
 
         <CompanionForm people={1} name={"first"} />
 
-        <CompanionForm people={2} name={"second"} />
+        {flag && <CompanionForm people={2} name={"second"} />}
 
         <div className="bg-gray-50 px-4 py-3 text-right sm:px-6">
           <button

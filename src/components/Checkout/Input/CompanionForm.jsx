@@ -36,7 +36,7 @@ const CompanionForm = (props) => {
                     autoComplete="family-name"
                     className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     {...register(`${props.name}CompanionFamilyName`, {
-                      required: "入力してください",
+                      // required: "入力してください",
                     })}
                   />
                 </div>
@@ -55,7 +55,7 @@ const CompanionForm = (props) => {
                     autoComplete="given-name"
                     className="mt-1 p-2 block w-full rounded border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     {...register(`${props.name}CompanionFirstName`, {
-                      required: "入力してください",
+                      // required: "入力してください",
                     })}
                   />
                 </div>
@@ -73,7 +73,7 @@ const CompanionForm = (props) => {
                     autoComplete="sex"
                     className="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                     {...register(`${props.name}CompanionSex`, {
-                      required: "入力してください",
+                      // required: "入力してください",
                     })}
                   >
                     <option>男性</option>
@@ -94,7 +94,7 @@ const CompanionForm = (props) => {
                     autoComplete="event"
                     className="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                     {...register(`${props.name}CompanionEvent`, {
-                      required: "入力してください",
+                      // required: "入力してください",
                     })}
                   >
                     <option>グラトリ・フリーラン</option>

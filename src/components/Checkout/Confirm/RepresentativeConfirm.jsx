@@ -1,7 +1,13 @@
+import { useCookies } from "react-cookie";
 import { useFormContext } from "react-hook-form";
 
 const RepresentativeConfirm = (props) => {
   const { getValues } = useFormContext();
+
+  const [cookies] = useCookies(["name", "fee"]);
+
+  const plan = cookies.name;
+  const fee = cookies.fee;
 
   return (
     <div className="mt-10 sm:mt-0">
@@ -74,7 +80,7 @@ const RepresentativeConfirm = (props) => {
                     プラン
                   </p>
                   <p className="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
-                    {getValues("plan")}
+                    {plan}
                   </p>
                 </div>
 
@@ -83,7 +89,7 @@ const RepresentativeConfirm = (props) => {
                     合計料金
                   </p>
                   <p className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                    {props.fee}
+                    {fee}
                   </p>
                 </div>
 

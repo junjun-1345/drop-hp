@@ -41,11 +41,11 @@ const navbar = () => {
                   来場のご案内
                 </Link>
               </li>
-              <li>
-                <Link className=" " href="/link">
+              {/* <li>
+                <Link className=" " href="/select">
                   予約ページ
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -61,12 +61,12 @@ const navbar = () => {
           <Link className="mx-5 flex items-center" href="/guide">
             来場のご案内
           </Link>
-          <Link
+          {/* <Link
             className="p-1 border rounded text-white border-white "
-            href="/reserve"
+            href="/select"
           >
             予約ページ
-          </Link>
+          </Link> */}
         </div>
       </div>
       <button
