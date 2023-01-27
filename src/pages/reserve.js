@@ -19,7 +19,7 @@ const reserve = () => {
                 ツイン
               </h2>
               <h1 className="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
-                ¥30,000
+                ¥31,000
               </h1>
               <p className="flex items-center text-gray-600 mb-2 mt-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -75,7 +75,7 @@ const reserve = () => {
                 </button>
               </Link>
               <p className="text-xs text-gray-500 mt-3">
-                予約確定後の人数変更は承っておりません。
+                支払金額には手数料が含まれております。
               </p>
             </div>
           </div>
