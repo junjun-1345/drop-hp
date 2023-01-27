@@ -55,9 +55,7 @@ const about = () => {
               </h1>
             </div>
           </div>
-          <div className="w-1/2 px-5">
-            <Map />
-          </div>
+          <div className="w-1/2 px-5">{/* <Map /> */}</div>
         </div>
       </div>
     </div>
