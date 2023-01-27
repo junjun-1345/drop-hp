@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { useState } from "react";
-import { useCookies } from "react-cookie";
 
 const reserve = () => {
   return (
