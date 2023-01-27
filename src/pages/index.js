@@ -69,6 +69,10 @@ export default function Home() {
               <h1 className="text-center text-gray-200 mx-10">12/24 </h1>
               <h1 className="text-center mx-10 ">サイトを公開しました。</h1>
             </div>
+            <div className="my-10 py-10 mx-5 border-y border-gray-500 flex flex-row flex-wrap justify-center">
+              <h1 className="text-center text-gray-200 mx-10">1/27 </h1>
+              <h1 className="text-center mx-10 ">予約を開始致しました。</h1>
+            </div>
           </div>
         </div>
         <div className="xl:mx-48 xl:mt-40 mt-20">
