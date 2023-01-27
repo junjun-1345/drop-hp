@@ -76,7 +76,7 @@ const reserve = () => {
                 </button>
               </Link>
               <p className="text-xs text-gray-500 mt-3">
-                支払金額には手数料が含まれております。
+                支払金額には手数料1000円が含まれております。
               </p>
             </div>
           </div>
