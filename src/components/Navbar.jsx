@@ -41,8 +41,18 @@ const navbar = () => {
                   来場のご案内
                 </Link>
               </li>
+<<<<<<< HEAD:src/components/Navbar.jsx
               {/* <li>
                 <Link className=" " href="/select">
+=======
+              <li>
+                <Link className="mx-5" href="/info">
+                  特定商取引法
+                </Link>
+              </li>
+              <li>
+                <Link className=" " href="/reserve">
+>>>>>>> main:src/components/navbar.js
                   予約ページ
                 </Link>
               </li> */}
@@ -61,7 +71,14 @@ const navbar = () => {
           <Link className="mx-5 flex items-center" href="/guide">
             来場のご案内
           </Link>
+<<<<<<< HEAD:src/components/Navbar.jsx
           {/* <Link
+=======
+          <Link className="mx-5 flex items-center" href="/info">
+            特定商取引法
+          </Link>
+          <Link
+>>>>>>> main:src/components/navbar.js
             className="p-1 border rounded text-white border-white "
             href="/select"
           >
