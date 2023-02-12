@@ -13,7 +13,7 @@ const navbar = () => {
     <nav className="flex  bg-black font-serif p-5 ">
       <div className="flex-none  sm:flex-1 md:flex-1 lg:flex-1 xl:flex-1">
         <Link href="/">
-          <Image src="/logo02.png" alt="logo" width={70} height={70} />
+          <Image src="/logo.png" alt="logo" width={40} height={40} />
         </Link>
       </div>
       {openMenu ? (
