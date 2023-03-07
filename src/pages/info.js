@@ -49,7 +49,7 @@ const info = () => {
         <div className="md:mx-40 mb-10 mt-20">
           <h1 className="text-center border-b mb-10 mt-20">交換および返品</h1>
           <p className="text-center">
-            イベント当日2週間前までのキャンセルは一部返金いたします。
+            イベントから2週間前までのキャンセルは一部返金いたします。
           </p>
         </div>
 
